@@ -2,7 +2,7 @@
 
 * Студент: [Анастасия Дрозд](https://up.htmlacademy.ru/htmlcss-individual/2/user/2657649).
 * Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
-
+Сайт:[ссылка на сайт](https://anastasiaa-d.github.io/2657649-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>

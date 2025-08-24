@@ -7,7 +7,7 @@
 </head>
 
 <body>
-  <header class="page-header">
+  <header class="page-header" data-test="header">
     <nav class="navigation">
       <a href="#" class="navigation-logo"><img classs='page-header-logo' src="#" alt="Логотип"></a>
       <ul class="navigation-list">
@@ -30,12 +30,12 @@
     </nav>
     <a class="header-button" href="#">Хочу сюда!</a>
   </header>
-  <main class="main">
-    <section class="welcome">
+  <main class="main" data-test="main">
+    <section class="welcome" data-test="hero">
       <h1 class="visually-hidden">Городок в Аризоне</h1>
       <img src="#" alt="Welcome to the gorgeous Sedona" class="welcome-img">
     </section>
-    <section class="advantages">
+    <section class="advantages" data-test="advantages">
       <h2 class="visually-hidden">Преимущества</h2>
       <p class="advantages-main">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
       <p class="advantages-reasons">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -82,7 +82,7 @@
         </li>
       </ul>
     </section>
-    <section class="search">
+    <section class="search" data-test="search">
       <h2 class="search-titile">Заинтересовались?</h2>
       <p class="search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
         Седоне</p>
@@ -98,7 +98,7 @@
       </form>
     </section>
   </main>
-  <footer class="page-footer">
+  <footer class="page-footer" data-test="footer">
     <ul class="sotial-list">
       <li class="sotial-item"><a class="sotial-link" href="#">
         <span class="visually-hidden">Вконтакте</span>

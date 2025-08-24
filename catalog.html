@@ -44,9 +44,9 @@
           <fieldset class="hotels-filter-group">
             <legend class="hotels-filter-title">Инфаструктура</legend>
             <ul class="hotels-filter-list">
-              <li class="hotels-filter-item"><label class="controls"><input class="control-input" type="checkbox"
+              <li class="hotels-filter-item"><label class="controls"><input class="control-input" checked type="checkbox"
                     name="Бассейн">Бассейн</label></li>
-              <li class="hotels-filter-item"><label class="controls"><input class="control-input" type="checkbox"
+              <li class="hotels-filter-item"><label class="controls"><input class="control-input" checked type="checkbox"
                     name="Парковка">Парковка</label></li>
               <li class="hotels-filter-item"><label class="controls"><input class="control-input" type="checkbox"
                     name="Wi-Fi">Wi-Fi</label></li>
@@ -56,24 +56,30 @@
             <legend class="hotels-filter-title">Тип жилья</legend>
             <ul class="hotels-filter-list">
               <li class="hotels-filter-item">
-                <label class="controls"><input class="control-input" type="radio" name="filter-item-check"
-                    value="Гостиница">Гостиница</label>
+                <label class="controls">
+                  <input class="control-input" checked type="radio" name="filter-item-check" value="Гостиница">
+                  Гостиница
+                </label>
               </li>
               <li class="filter-item-check">
-                <label class="controls"><input class="control-input" type="radio" name="Гостиница"
-                    value="Мотель">Мотель</label>
+                <label class="controls">
+                  <input class="control-input" type="radio" name="Гостиница" value="Мотель">
+                    Мотель
+                  </label>
               </li>
               <li class="filter-item-check">
-                <label class="controls"><input class="control-input" type="radio" name="Гостиница"
-                    value="Апартаменты">Апартаменты</label>
+                <label class="controls">
+                  <input class="control-input" type="radio" name="Гостиница" value="Апартаменты">
+                  Апартаменты
+                  </label>
               </li>
             </ul>
           </fieldset>
           <fieldset class="hotels-filter-group">
             <legend class="hotels-filter-title">Стоимость, ₽:</legend>
             <ul class="hotels-filter-list">
-              <li class="hotels-filter-item"><label class="controls"><input class="control-input" type="text" name="mincost"></label></li>
-              <li class="hotels-filter-item"><label class="controls"><input class="control-input" type="text" name="maxcost"></label></li>
+              <li class="hotels-filter-item"><label class="controls">От <input class="control-input" type="text" name="mincost"></label></li>
+              <li class="hotels-filter-item"><label class="controls">До <input class="control-input" type="text" name="maxcost"></label></li>
             </ul>
           </fieldset>
           <button class="filter-button" type="submit">Применить</button>
